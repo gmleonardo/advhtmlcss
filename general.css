@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 140rem;
+  }
+  
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    /*
+    it does not work Safari 
+    scroll-behavior: smooth;
+    */
+  }
+  
+  body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+  
+    /*This mean is that all elements that overflow the viewport
+    in the X axis so horizontally, will simply be hidden  */
+  
+    /*Only works if there is nothing absolutley positioned
+    in relation to body*/
+    overflow-x: hidden;
+  }
+
+  .container {
+    max-width: 140rem;
+    padding: 0 3.2rem;
+    margin: 0 3rem;
+  }
+
+  .grid{
+    display: grid;
+    column-gap: 6.4rem;
+    margin-bottom: 4rem;
+  }
+
+  .grid--2-cols{
+    grid-template-columns: 40% 60%;
+  }
+
+  .catalog{
+    row-gap: 3rem;
+  }
+
+ 
+
+  .catalog li a  {
+    font-size: 3rem;
+    font-weight: 700;
+    
+  }
+
+  .aboutme{
+    margin-right: 2rem;
+  }
+
+  .aboutme p{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+  
+  
+
+
+  h1{
+    padding: 3rem;
+    padding-left: 10rem;
+    padding-bottom: 3rem;
+    font-size:4rem;
+    color:rgb(38, 211, 75);
+  }
+
+  h2{
+    padding: 3rem;
+    padding-left: 0rem;
+    padding-bottom: 3rem;
+    font-size:2.5rem;
+    font-weight: bolder;
+    color:green;
+  }
+
+  h3{
+    padding: 3rem;
+    padding-left: 0rem;
+    padding-bottom: 3rem;
+    font-size:2rem;
+    font-weight: bolder;
+    color:green;
+  }
+
+
+  /*
+  .bar{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      gap: 1rem;
+      align-content: center;
+      font-size: 2rem;
+      margin-bottom: 5rem;
+      
+    }
+    */
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(102, 190, 117);
+  }
+
+  li {
+   float:left;
+  }
+
+ .bar li a {
+    font-size: 2rem;
+ }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+
+  .rightLink  {
+    background-color: rgb(20, 241, 38);
+  }
+
+  .rightLink:hover{
+    background-color: rgb(4, 133, 15);
+
+  }
+
+  li a:hover {
+    background-color: rgb(20, 241, 38);
+  }
+  
+  .catalog a:link {
+    color: green;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  .catalog a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  .catalog a:hover {
+    color: green;
+    font-weight: 600;
+  }
+  
+  /* selected link */
+  .catalog a:active {
+    color: green;
+  }
+
+  .footerLGM {
+    font-size: 2rem;
+  }
+
+  .exp{
+    display: inline;
+    font-size: 1.5rem;
+    background-color: white;
+    gap: 1rem;
+  }
+
+  .exp ul  {
+    background-color: white;
+    margin-bottom: 1rem;
+
+  }
+
+  .exp ul li {
+    margin-bottom: 2rem;
+
+  }
