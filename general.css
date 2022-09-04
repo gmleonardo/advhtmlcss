@@ -96,18 +96,7 @@
   }
 
 
-  /*
-  .bar{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      gap: 1rem;
-      align-content: center;
-      font-size: 2rem;
-      margin-bottom: 5rem;
-      
-    }
-    */
+
 
   ul {
     list-style-type: none;
@@ -190,3 +179,133 @@
     margin-bottom: 2rem;
 
   }
+
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  
+  * {
+    max-width: 120rem;
+  }
+
+  
+
+  h1 {
+    font-size: 3.8rem;
+
+  }
+  h2{
+    font-size: 2.1rem;
+  }
+
+  h3{
+    font-size: 1.8rem;
+
+  }
+
+
+  .testimonial-text {
+    font-size: 1.6rem;
+  }
+}
+
+/*****************************************************/
+
+/* BELLOW 944px (Tablets)*/
+
+/*****************************************************/
+
+@media (max-width: 59em) {
+  /*8px/16px = 50% */
+  html {
+    font-size: 50%;
+  }
+
+  .headerLGM {
+    padding: 1% 1%;
+  }
+
+  
+
+  
+}
+
+@media (max-width: 35em) {
+
+  html {
+    font-size: 40%;
+  }
+
+  .headerLGM {
+    padding: 1% 1%;
+  }
+
+  h1{
+    font-size: 3rem;
+  }
+
+  h2{
+    font-size: 1.4rem;
+  }
+
+  h3{
+    font-size: 1.0rem;
+  }
+  
+
+  .container {
+    max-width: 120rem;
+    padding: 0 2rem;
+    margin: 0 1rem;
+  }
+
+  .grid{
+    display: grid;
+    column-gap: 3.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .grid--2-cols{
+    grid-template-columns: 1fr;
+  }
+
+
+  
+
+  
+}
+
+@media (max-width: 35em){
+
+
+
+  .container {
+    max-width: 120rem;
+    padding: 0 1rem;
+    margin: 0 1rem;
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  h3{
+    font-size: 1.3rem;
+  }
+
+
+  .grid{
+    display: grid;
+    column-gap: 2.8rem;
+    margin-bottom: 2rem;
+  }
+
+}
