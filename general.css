@@ -1,184 +1,181 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    max-width: 140rem;
-  }
-  
-  html {
-    font-size: 62.5%;
-    overflow-x: hidden;
-    /*
-    it does not work Safari 
-    scroll-behavior: smooth;
-    */
-  }
-  
-  body {
-    font-family: "Rubik", sans-serif;
-    line-height: 1;
-    font-weight: 400;
-    color: #555;
-  
-    /*This mean is that all elements that overflow the viewport
-    in the X axis so horizontally, will simply be hidden  */
-  
-    /*Only works if there is nothing absolutley positioned
-    in relation to body*/
-    overflow-x: hidden;
-  }
-
-  .container {
-    max-width: 140rem;
-    padding: 0 3.2rem;
-    margin: 0 3rem;
-  }
-
-  .grid{
-    display: grid;
-    column-gap: 6.4rem;
-    margin-bottom: 4rem;
-  }
-
-  .grid--2-cols{
-    grid-template-columns: 40% 60%;
-  }
-
-  .catalog{
-    row-gap: 3rem;
-  }
-
- 
-
-  .catalog li a  {
-    font-size: 3rem;
-    font-weight: 700;
-    
-  }
-
-  .aboutme{
-    margin-right: 2rem;
-  }
-
-  .aboutme p{
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-    line-height: 2;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 140rem;
 }
-  
-  
 
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  /*
+  it does not work Safari 
+  scroll-behavior: smooth;
+  */
+}
 
-  h1{
-    padding: 3rem;
-    padding-left: 10rem;
-    padding-bottom: 3rem;
-    font-size:4rem;
-    color:rgb(38, 211, 75);
-  }
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
 
-  h2{
-    padding: 3rem;
-    padding-left: 0rem;
-    padding-bottom: 3rem;
-    font-size:2.5rem;
-    font-weight: bolder;
-    color:green;
-  }
+  /*This mean is that all elements that overflow the viewport
+  in the X axis so horizontally, will simply be hidden  */
 
-  h3{
-    padding: 3rem;
-    padding-left: 0rem;
-    padding-bottom: 3rem;
-    font-size:2rem;
-    font-weight: bolder;
-    color:green;
-  }
+  /*Only works if there is nothing absolutley positioned
+  in relation to body*/
+  overflow-x: hidden;
+}
 
+.container {
+  max-width: 140rem;
+  padding: 0 3.2rem;
+  margin: 0 3rem;
+}
 
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  margin-bottom: 4rem;
+}
 
+.grid--2-cols {
+  grid-template-columns: 40% 60%;
+}
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(102, 190, 117);
-  }
+.catalog {
+  row-gap: 3rem;
+}
 
-  li {
-   float:left;
-  }
+.catalog li a {
+  font-size: 3rem;
+  font-weight: 700;
+}
 
- .bar li a {
-    font-size: 2rem;
- }
+.aboutme {
+  margin-right: 2rem;
+}
 
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    
-  }
+.aboutme p {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  line-height: 2;
+}
 
-  .rightLink  {
-    background-color: rgb(20, 241, 38);
-  }
+h1 {
+  padding: 3rem;
+  padding-left: 10rem;
+  padding-bottom: 3rem;
+  font-size: 4rem;
+  color: rgb(38, 211, 75);
+}
 
-  .rightLink:hover{
-    background-color: rgb(4, 133, 15);
+h2 {
+  padding: 3rem;
+  padding-left: 0rem;
+  padding-bottom: 3rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: green;
+}
 
-  }
+h3 {
+  padding: 3rem;
+  padding-left: 0rem;
+  padding-bottom: 3rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: green;
+}
 
-  li a:hover {
-    background-color: rgb(20, 241, 38);
-  }
-  
-  .catalog a:link {
-    color: green;
-    font-size: 2rem;
-    text-decoration: none;
-  }
-  
-  /* visited link */
-  .catalog a:visited {
-    color: green;
-  }
-  
-  /* mouse over link */
-  .catalog a:hover {
-    color: green;
-    font-weight: 600;
-  }
-  
-  /* selected link */
-  .catalog a:active {
-    color: green;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(102, 190, 117);
+}
 
-  .footerLGM {
-    font-size: 2rem;
-  }
+li {
+  float: left;
+}
 
-  .exp{
-    display: inline;
-    font-size: 1.5rem;
-    background-color: white;
-    gap: 1rem;
-  }
+.bar li a {
+  font-size: 2rem;
+}
 
-  .exp ul  {
-    background-color: white;
-    margin-bottom: 1rem;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  }
+.rightLink {
+  background-color: rgb(20, 241, 38);
+}
 
-  .exp ul li {
-    margin-bottom: 2rem;
+.rightLink:hover {
+  background-color: rgb(4, 133, 15);
+}
 
-  }
+li a:hover {
+  background-color: rgb(20, 241, 38);
+}
+
+.catalog a:link {
+  color: green;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+/* visited link */
+.catalog a:visited {
+  color: green;
+}
+
+/* mouse over link */
+.catalog a:hover {
+  color: green;
+  font-weight: 600;
+}
+
+/* selected link */
+.catalog a:active {
+  color: green;
+}
+
+.footerLGM {
+  font-size: 2rem;
+}
+
+.exp {
+  display: inline;
+  font-size: 1.5rem;
+  background-color: white;
+  gap: 1rem;
+}
+
+.exp ul {
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.exp ul li {
+  margin-bottom: 2rem;
+}
+
+.users li {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+}
+
+.backgroundc {
+  background-color: rgba(35, 168, 35, 0.517);
+}
 
 /* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
 
@@ -187,26 +184,20 @@
 /**************************/
 
 @media (max-width: 84em) {
-  
   * {
     max-width: 120rem;
   }
 
-  
-
   h1 {
     font-size: 3.8rem;
-
   }
-  h2{
+  h2 {
     font-size: 2.1rem;
   }
 
-  h3{
+  h3 {
     font-size: 1.8rem;
-
   }
-
 
   .testimonial-text {
     font-size: 1.6rem;
@@ -228,14 +219,9 @@
   .headerLGM {
     padding: 1% 1%;
   }
-
-  
-
-  
 }
 
 @media (max-width: 35em) {
-
   html {
     font-size: 40%;
   }
@@ -244,18 +230,17 @@
     padding: 1% 1%;
   }
 
-  h1{
+  h1 {
     font-size: 3rem;
   }
 
-  h2{
+  h2 {
     font-size: 1.4rem;
   }
 
-  h3{
-    font-size: 1.0rem;
+  h3 {
+    font-size: 1rem;
   }
-  
 
   .container {
     max-width: 120rem;
@@ -263,49 +248,39 @@
     margin: 0 1rem;
   }
 
-  .grid{
+  .grid {
     display: grid;
     column-gap: 3.2rem;
     margin-bottom: 2rem;
   }
 
-  .grid--2-cols{
+  .grid--2-cols {
     grid-template-columns: 1fr;
   }
-
-
-  
-
-  
 }
 
-@media (max-width: 35em){
-
-
-
+@media (max-width: 35em) {
   .container {
     max-width: 120rem;
     padding: 0 1rem;
     margin: 0 1rem;
   }
 
-  h1{
+  h1 {
     font-size: 2rem;
   }
 
-  h2{
+  h2 {
     font-size: 1.5rem;
   }
 
-  h3{
+  h3 {
     font-size: 1.3rem;
   }
 
-
-  .grid{
+  .grid {
     display: grid;
     column-gap: 2.8rem;
     margin-bottom: 2rem;
   }
-
 }
