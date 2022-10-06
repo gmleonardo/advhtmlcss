@@ -1,0 +1,103 @@
+<!doctypehtml>
+<html lang=en>
+  <meta charset=UTF-8>
+  <meta content="IE=edge"http-equiv=X-UA-Compatible>
+  <meta content="width=device-width,initial-scale=1"name=viewport>
+  <link href=general.css rel=stylesheet>
+  <title>Leonardo Garcia HW2 Google Analytics GA4</title>
+  <header class="container headerLGM">
+    <h1>Leonardo García - Full Stack Developer</h1>
+    <div class=bar>
+      <ul>
+        <li><a href=exp.html>Experience</a>
+        <li><a href=skills.html>Skills</a>
+        <li><a href=education.html>Education</a>
+        <li style=float:right><a href=portfolio.html class=rightLink>Portfolio</a>
+      </ul></div></header><div class="container grid grid--2-cols">
+      <section class="grid catalog">
+        <h2>Advanced HTML & CSS3</h2>
+        <a href=hw2.html>HW2: Google Analytics - GA4</a> 
+        <a href=hw3.html>HW3: Working with Image</a> 
+        <a href=#>Advanced Pseudo-Classes</a> 
+        <a href=#>Flexible Grids</a> 
+        <a href=#>Transitions and Animations</a> 
+        <a href=#>Semantics, Preporcessors</a> 
+        <a href=#>Search Engine Optimization</a>
+      </section>
+      <section class="backgroundg aboutme">
+        <h2>3. Performance and Organization of HTML and CSS Files</h2>
+        <h3>3.1 An important case: Compression of Image</h3>
+        <p>One essential procedure for maintaining good performance with our website is to analyze the size of the pictures 
+          that we have included. If they are heavy our website will be slow. For this reason, it is required to apply compress 
+          to the image, which has essential benefits:</p><br>
+          <ul class="backgroundg users">
+            <li>Keeping a good performance when we demand access to the browser with a light picture on HTML.
+            <li>Preserving its original size (width x height) and reduce its size without losing the quality of the images.
+
+          </ul>
+          <p>For example, we can analyze the following images. A picture form NewBurryport, Massachusetts. Its original 
+            size is 7.49 MB and it was reduced to 392 KB (95% of reduction ) and we can observer that it keeps a good quality.
+          <figure class=imageCompress><img alt="A lake close to NewBurryport, Massachusetts"src=newburryport.jpg>
+            <figcaption><strong>Original Picture:</strong> Width:4032px, Height:3024px, Size:7.697.913 bytes (7.34 MB)
+            </figcaption>
+          </figure>
+          <figure class=imageCompress>
+          <img alt="A lake close to NewBurryport, Massachusetts, which was compressed "src=newburryport-min.jpg>
+          <figcaption><strong>Compressed Picture:</strong>Width:4032px, Height:3024px, Size: 401.907 bytes (392 KB)
+          </figcaption></figure>
+          <h3>3.2 How we can compress a picture?</h3>
+          <p style=margin-top:3rem>There are many options on the web to complete this procedure. However, 
+          we can check this link <strong><a href=https://imagecompressor.com/ target=_blank>Optimizilla</a></strong> . 
+          I liked this option because they have online image optimizer that use compression algorithms to shrink JPEG, 
+          GIF, and PNG files, where we can reach a minimum possible size, while we do not lose the required level of 
+          quality of image, and its processing is quick and to download the compressed image is straightforward.
+          <p style=font-size:15px><strong>Steps:</strong>
+          <ul class="backgroundg users without">
+            <li>3.2.1. Uploading the file.Check the next images.
+            <li><figure class=imageCompress><img alt="On the Optimizilla website Uploading a image file "src=fig3-1.png>
+            </figure>
+            <li>3.2.2. Adjusting the image file with Quality Value. It is required to click on Appy button, located at 
+            the bottom.
+            <li>
+              <figure class=imageCompress>
+                <img alt="Adjusting the size of file on the Optimizilla website  "src=fig3-2.png>
+              </figure>
+            <li>3.2.3. Choosing a percentage of compression, in this example was 95%.Next step we can click on 
+              Download All icon.
+            <li>
+              <figure class=imageCompress>
+              <img alt="Compression of image with a 95%  on the Optimizilla website  "src=fig3-3.png>
+            </figure>
+          </ul>
+          <h3>3.3 Checking Download Time with Chrome Developer Tools (CDT)</h3>
+          <p>When we refresh this HTML and analyze each picture, we see that the original downloaded 
+            image is slower than the compressed image. So if we would like to check the real-time, we can 
+            quantify their download time if using the CDT with the following steps:
+            <ul class="backgroundg users without">
+              <li>3.3.1. On the Browser, with Mouse Bottom #3 (MB3),Inspection. Then click on NetWork Tab
+              <li>
+                <figure class=imageCompress><img alt="On the Optimizilla website Uploading a image file "src=fig3-4.png>
+                </figure>
+              <li>3.3.2. We can see that there is a tabular list with each component of the website.In my case, we 
+                pay attention with newburryport.png and newburryport-mini.png and the column called Time. 
+                For each files we have two download time. For the original image file is 44ms, while the 
+                compressed image file is 14ms.
+              <li>
+                <figure class=imageCompress><img alt="Adjusting the size of file on the Optimizilla website  "src=fig3-5.png>
+               </figure>
+               <li>3.3.3 In the previous image, if we click on Waterfall column, we can see more details about the 
+                download time.
+            </ul>
+          </section>
+        </div>
+        <footer>
+        <section>
+          <h3>You can reach Leonardo at</h3>
+          <ul class=footerLGM>
+            <li><a href=https://www.linkedin.com/in/leonardogarciageoandev/ class=footerLGM>LinkedIn</a>
+            <li><a href=mailto:lgarciab@mail.ccsf.edu class=footerLGM>Email</a>
+            <li><a href=tel:+7868620022 class=footerLGM>Phone</a>
+            <li><a href=index.html class=footerLGM>Home</a>
+          </ul>
+        </section>
+      </footer>

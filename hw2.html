@@ -1,313 +1,143 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="general.css" />
-    <title>Leonard Garcia HW2 Google Analytics GA4</title>
-  </head>
-  <body>
-    <header class="container headerLGM">
-      <h1>Leonardo García - Full Stack Developer</h1>
-      <div class="bar">
-        <ul>
-          <li><a href="exp.html">Experience</a></li>
-          <li><a href="skills.html">Skills</a></li>
-          <li><a href="education.html">Education</a></li>
-          <li style="float: right">
-            <a href="portfolio.html" class="rightLink">Portfolio</a>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <div class="container grid grid--2-cols">
-      <section class="grid catalog">
-        <h2>Advanced HTML & CSS3</h2>
-
-        <a href="hw2.html">HW2: Google Analytics - GA4</a>
-        <a href="#">Organization of Files</a>
-        <a href="#">Advanced Pseudo-Classes</a>
-        <a href="#">Flexible Grids</a>
-        <a href="#">Transitions and Animations</a>
-        <a href="#">Semantics, Preporcessors</a>
-        <a href="#">Search Engine Optimization</a>
-      </section>
-      <section class="aboutme" class="backgroundc">
-        <h2>Google Analytics Report</h2>
-        <h3>2.1 An Introduction</h3>
-        <p>
-          Before analyzing the report, we would like to explain what Google
-          Analytics Report is. We will answer that it is a powerful tool offered
-          by Google that lets us to insight into our customers anytime they
-          access our Website. E ach action applied by our User or potential
-          customer is registered as a fountain of data, and with that vital
-          information, we can help define strategies in our business. This tool
-          is a shovel that will help us get information about the users'
-          behavior and how they react to our Website or web apps. If we know
-          their behavior better, we can optimize our content, attract even more
-          customers, and increase our revenue, which is our primary goal.
-        </p>
-
-        <br />
-        <p>
-          Although our first experience will be analyzing report Snapshot,
-          Google Analytics offers precise measuring, reporting, and exploring
-          steps created with JavaScript coding (called Global Site tag-gtag.js )
-          implemented in our HTML files and Google developed it.
-        </p>
-
-        <br />
-        <p style="margin-bottom: 3rem">
-          But now we are going to see how does it work technically? So we start
-          with our image, which shows that Google Analytics Snapshot is a fancy
-          visualization report with multiple features.
-        </p>
-
-        <img
-          src="fig0.png"
-          alt="Google Analytics Snapshot Report"
-          style="width: 100%"
-        />
-
-        <br />
-        <h3>2.2 Snapshot Report and its interpretation</h3>
-        <p p style="margin-top: 3rem">
-          Concerning Report snapshots, we can even interpret what is happening
-          on our Website in real-time. We see information about our users, where
-          they come from, what page they're on right now, what they click, and
-          many other data points. In reality, we have a summary of what is
-          happening on our Website with the Users. We will divide the picture
-          into six parts to better understand it.
-        </p>
-
-        <p>
-          <strong>2.2.a Our section on the top-left</strong> is essential
-          information about the User. First, we can define the User as a person
-          who accesses our Website using a PC, laptop, o any device. Then, in
-          this section, we have some metrics about Users.
-        </p>
-
-        <img
-          src="fig1.png"
-          alt="Google Analytics Snapshot Report Section Users"
-          style="width: 70%"
-        />
-
-        <div class="users">
-          <li>
-            The first value, <strong>99K Users</strong>, is the total number of
-            people who checked our Website over a period called the range date
-            of the report. In our case, that period is between May 08th to Jun
-            10th.
-          </li>
-          <li>
-            The second value is <strong>86K New Users</strong> who saw our
-            Website for the first time. So, we can interpret that 86% of our
-            Users accessed the Website for the first time, and 14% have accessed
-            it more than once.
-          </li>
-          <li>
-            A critical definition is the
-            <strong>Average Engagement Time</strong>; the average time the users
-            navigate or interact with the content on our Website. For our
-            example, currently is 1 minute and 37 seconds. It is critical
-            because we need to understand what we can do in that period if we
-            can reach an economic conversion.
-          </li>
-          <li>
-            With a universe of 99K Users and almost one month of range date, it
-            generated $234K. First, however, we must compare it with other range
-            dates to recognize it as a bad or good period.
-          </li>
-          <li>
-            Finally, we observe a trend line (a graphic) of the last 30 days
-            that daily shows a minimum and maximum Users who accesed our website
-            (approximately 3K and 5K Users, respectively, in our case with a
-            sinusoidal pattern. We observe high and low levels, but it keeps a
-            range of users.
-          </li>
-          <li>
-            An interesting question is why the number of Users is more
-            significant than the number of New Users because the first variable
-            is the total summation of the old and new users. We can calculate
-            the percentage of new and old users with both values as we did.
-          </li>
-        </div>
-
-        <p style="margin-top: 3rem">
-          <strong>2.2.b Our section in the top center</strong> is the best
-          reference for an exciting real-time concept. It is designed for three
-          sections, an absolute value of the number of users, a histogram, and a
-          demographic histogram with the top countries who visited our Website
-          in the last 30 minutes.
-        </p>
-
-        <img
-          src="fig2.png"
-          alt="Google Analytics Snapshot Report Section 30 last minutes"
-          style="width: 60%"
-        />
-
-        <div class="users">
-          <li>
-            The first number. <strong>82</strong>. is how many users have
-            accessed our website in the last 30 minutes.
-          </li>
-          <li>
-            Then, with more details, we can see a histogram that has 30 columns
-            with a smooth distribution. Each column shows how many Users visited
-            our website in one minute.
-          </li>
-
-          <li>
-            Finally, the top four countries with the highest accessing our
-            website with their respective number of Users. First position, USA,
-            Mexico, Indonesia, Canada, and China.
-          </li>
-        </div>
-        <p style="margin-top: 3rem">
-          <strong>2.2.c Our section on the top-right is called Insight.</strong>
-          The most important part is related to the metric of the Website
-          conversion. Website conversion is an event that is valuable for our
-          business and helps us to reach the revenue. Website conversion happens
-          when someone completes a predetermined and desired action on our
-          Website, from signing up for a newsletter, sharing information on
-          social media, or buying a product.
-        </p>
-
-        <img
-          src="fig3.png"
-          alt="Google Analytics Snapshot Report with Conversion information"
-          style="width: 50%"
-        />
-
-        <div class="users">
-          <li>
-            Our first indicator explains that we got a 35.33% conversion
-            conversions with Google Engine.
-          </li>
-
-          <li>
-            The second indicator shows that we reached a better projections with
-            respect the original prediction has been planified previously with
-            Google Merchandise Store.This case was a 293.48%.
-          </li>
-        </div>
-
-        <p style="margin-top: 3rem">
-          <strong>2.2.d Our section on the lower-left</strong> started with a
-          question provided by Google
-          <strong>"Where do our New Users come from? "</strong>
-          which should help us get the insights.There are kind of navigating in
-          our analysis.
-        </p>
-
-        <img
-          src="fig3b.png"
-          alt="Google Analytics Snapshot Report with Conversion information"
-          style="width: 90%"
-        />
-
-        <div class="users">
-          <li>
-            Our first channel is Direct, which means that the Users enter the
-            URL related to our Website on the Browser. Also, it could be linked
-            with some Microsoft Office document or a PDF file.
-          </li>
-
-          <li>
-            Our second channel grouping is Organic Search where people finding
-            the website on Google. However, it also include other search
-            engines, like Bing.
-          </li>
-
-          <li>
-            The third channel is Display, when someone cliks on an Ad that we
-            run on another website. Banner ads on blogs and image adds on news
-            site are some common generators of display traffic.
-          </li>
-
-          <li>
-            Our fourth channel is Cross-network, with includes a traffic between
-            all of type the channel that we explained here.
-          </li>
-
-          <li>
-            OOur fifth is The Paid Search Channel, which includes traffic from
-            Google Ads and lets us access our Website.
-          </li>
-
-          <li>
-            The sixth channel is Paid Video when a user clicks on paid video ads
-            and lands on our Website straightforwardly.
-          </li>
-          <li>
-            Our seventh channel is Referral which is reported when someone
-            clicks through from another website that has a hyperlink with our
-            Website. For example, if someone links to our Website in a blog
-            post.
-          </li>
-        </div>
-
-        <p style="margin-top: 3rem">
-          <strong>2.2.e Our section on the lower-right</strong> is specifically
-          a demographic report. We can see how the users have been located
-          around the world.
-        </p>
-
-        <img
-          src="fig4.png"
-          alt="Google Analytics Snapshot Report with Demographic report"
-          style="width: 90%"
-        />
-
-        <div class="users">
-          <li>
-            The first panel shows a world map with null, minimum, and maximum
-            values related to the distributed users worldwide.
-          </li>
-
-          <li>
-            The second panel shows the top 6 countries in the world with the
-            most frequent users with their respective number of Users.
-          </li>
-        </div>
-
-        <p style="margin-top: 3rem; margin-bottom: 3rem">
-          <strong>Observations</strong>. We know we can see the users on Google
-          Analytics Snapshot the most general information in real-time. However,
-          if we want to get information about the number of Users using mobile
-          devices to access our Website, we need to take another report. The
-          name of the report is User-Tech overview. For more details, check the
-          following image in its lower level.
-        </p>
-
-        <img
-          src="fig5.png"
-          alt="Google Analytics Tech Report"
-          style="width: 100%"
-        />
-      </section>
-    </div>
-    <footer>
-      <section>
-        <h3>You can reach Leonardo at</h3>
-        <ul class="footerLGM">
-          <li>
-            <a
-              class="footerLGM"
-              href="https://www.linkedin.com/in/leonardogarciageoandev/"
-              >LinkedIn</a
-            >
-          </li>
-          <li>
-            <a class="footerLGM" href="mailto:lgarciab@mail.ccsf.edu">Email</a>
-          </li>
-          <li><a class="footerLGM" href="tel:+7868620022">Phone</a></li>
-          <li><a class="footerLGM" href="index.html">Home</a></li>
-        </ul>
-      </section>
-    </footer>
-  </body>
-</html>
+<!doctypehtml>
+<html lang=en>
+  <meta charset=UTF-8>
+  <meta content="IE=edge"http-equiv=X-UA-Compatible>
+  <meta content="width=device-width,initial-scale=1"name=viewport>
+  <link href=general.css rel=stylesheet>
+  <title>Leonardo Garcia HW2 Google Analytics GA4</title>
+  <header class="container headerLGM">
+    <h1>Leonardo García - Full Stack Developer</h1>
+    <div class=bar>
+      <ul>
+        <li><a href=exp.html>Experience</a>
+        <li><a href=skills.html>Skills</a>
+        <li><a href=education.html>Education</a>
+        <li style=float:right><a href=portfolio.html class=rightLink>Portfolio</a>
+      </ul></div>
+  </header>
+  <div class="container grid grid--2-cols">
+    <section class="grid catalog">
+      <h2>Advanced HTML & CSS3</h2>
+      <a href=hw2.html>HW2: Google Analytics - GA4</a> 
+      <a href=hw3.html>HW3: Working with Image</a> 
+      <a href=#>Advanced Pseudo-Classes</a> 
+      <a href=#>Flexible Grids</a> 
+      <a href=#>Transitions and Animations</a> 
+      <a href=#>Semantics, Preporcessors</a> 
+      <a href=#>Search Engine Optimization</a>
+    </section>
+    <section class=aboutme class=backgroundc>
+      <h2>Google Analytics Report</h2>
+      <h3>2.1 An Introduction</h3>
+      <p>Before analyzing the report, we would like to explain what Google Analytics Report is. We will answer that 
+        it is a powerful tool offered by Google that lets us to insight into our customers anytime they access our 
+        Website. E ach action applied by our User or potential customer is registered as a fountain of data, 
+        and with that vital information, we can help define strategies in our business. This tool is a 
+        shovel that will help us get information about the users' behavior and how they react to our Website 
+        or web apps. If we know their behavior better, we can optimize our content, attract even more customers, 
+        and increase our revenue, which is our primary goal.</p><br><p>Although our first experience will be 
+        analyzing report Snapshot, Google Analytics offers precise measuring, reporting, and exploring 
+        steps created with JavaScript coding (called Global Site tag-gtag.js ) implemented in our HTML files 
+        and Google developed it.</p><br><p style=margin-bottom:3rem>But now we are going to see how does it
+           work technically? So we start with our image, which shows that Google Analytics Snapshot is a 
+           fancy visualization report with multiple features.</p>
+           <img alt="Google Analytics Snapshot Report"src=fig0.png style=width:100%><br>
+           <h3>2.2 Snapshot Report and its interpretation</h3>
+           <p style=margin-top:3rem p>Concerning Report snapshots, we can even interpret what is 
+            happening on our Website in real-time. We see information about our users, where they 
+            come from, what page they're on right now, what they click, and many other data points. 
+            In reality, we have a summary of what is happening on our Website with the Users. We 
+            will divide the picture into six parts to better understand it.<p><strong>2.2.a Our section on the top-left</strong>
+           is essential information about the User. First, we can define the User as a person who accesses our Website using a 
+           PC, laptop, o any device. Then, in this section, we have some metrics about Users.</p>
+           <img alt="Google Analytics Snapshot Report Section Users"src=fig1.png style=width:70%>
+           <div class=users>
+            <li>The first value, <strong>99K Users</strong>, is the total number of people who checked our 
+            Website over a period called the range date of the report. In our case, that period 
+            is between May 08th to Jun 10th.<li>The second value is <strong>86K New Users</strong> 
+              who saw our Website for the first time. So, we can interpret that 86% of our Users 
+              accessed the Website for the first time, and 14% have accessed it more than once.
+            <li>A critical definition is the <strong>Average Engagement Time</strong>; the average time the users 
+              navigate or interact with the content on our Website. For our example, currently is 1 minute and 37 
+              seconds. It is critical because we need to understand what we can do in that period if we can reach 
+              an economic conversion.<li>With a universe of 99K Users and almost one month of range date, it 
+                generated $234K. First, however, we must compare it with other range dates to recognize it as a bad or 
+                good period.<li>Finally, we observe a trend line (a graphic) of the last 30 days that daily shows a 
+                  minimum and maximum Users who accesed our website (approximately 3K and 5K Users, respectively, in 
+                  our case with a sinusoidal pattern. We observe high and low levels, but it keeps a range of users.
+            <li>An interesting question is why the number of Users is more significant than the number of New Users 
+              because the first variable is the total summation of the old and new users. We can calculate the 
+            ercentage of new and old users with both values as we did.
+          </div>
+            <p style=margin-top:3rem><strong>2.2.b Our section in the top center</strong> 
+              is the best reference for an exciting real-time concept. It is designed for three sections, 
+              n absolute value of the number of users, a histogram, and a demographic histogram with the 
+              top countries who visited our Website in the last 30 minutes.</p>
+              <img alt="Google Analytics Snapshot Report Section 30 last minutes"src=fig2.png style=width:60%>
+              
+          <div class=users>
+            <li>The first number. <strong>82</strong>. is how many users have accessed our website in the last 30 minutes.
+            <li>Then, with more details, we can see a histogram that has 30 columns with a smooth distribution. 
+              Each column shows how many Users visited our website in one minute.
+            <li>Finally, the top four countries with the highest accessing our website with their 
+            respective number of Users. First position, USA, Mexico, Indonesia, Canada, and China.
+          </div>
+          <p style=margin-top:3rem><strong>2.2.c Our section on the top-right is called Insight.</strong> 
+            The most important part is related to the metric of the Website conversion. Website conversion 
+            is an event that is valuable for our business and helps us to reach the revenue. Website conversion 
+            happens when someone completes a predetermined and desired action on our Website, from signing up 
+            for a newsletter, sharing information on social media, or buying a product.</p>
+          <img alt="Google Analytics Snapshot Report with Conversion information"src=fig3.png style=width:50%>
+          <div class=users><li>Our first indicator explains that we got a 35.33% conversion conversions with Google Engine.
+            <li>The second indicator shows that we reached a better projections with respect the original prediction has 
+              been planified previously with Google Merchandise Store.This case was a 293.48%.
+          </div>
+          <p style=margin-top:3rem><strong>2.2.d Our section on the lower-left</strong> 
+            started with a question provided by Google <strong>"Where do our New Users come from? "</strong>
+             which should help us get the insights.There are kind of navigating in our analysis.
+            </p><img alt="Google Analytics Snapshot Report with Conversion information"src=fig3b.png style=width:90%>
+            <div class=users><li>Our first channel is Direct, which means that the Users enter the URL related 
+              to our Website on the Browser. Also, it could be linked with some Microsoft Office document or a PDF file.
+              <li>Our second channel grouping is Organic Search where people finding the website on Google. However, it 
+                also include other search engines, like Bing.
+              <li>The third channel is Display, when someone cliks on an 
+                  Ad that we run on another website. Banner ads on blogs and image adds on news site are some common 
+                  generators of display traffic.
+              <li>Our fourth channel is Cross-network, with includes a traffic 
+                    between all of type the channel that we explained here.
+              <li>OOur fifth is The Paid Search Channel, which includes traffic from Google Ads and lets us access our Website.
+              <li>The sixth channel is Paid Video when a user clicks on paid video ads and lands on our Website straightforwardly.
+              <li>Our seventh channel is Referral which is reported when someone clicks through from another website that has a 
+                hyperlink with our Website. For example, if someone links to our Website in a blog post.
+              </div>
+              <p style=margin-top:3rem><strong>2.2.e Our section on the lower-right</strong> is specifically a 
+                demographic report. We can see how the users have been located around the world.
+              </p>
+              <img alt="Google Analytics Snapshot Report with Demographic report"src=fig4.png style=width:90%>
+              <div class=users>
+                <li>The first panel shows a world map with null, minimum, and maximum values related to the distributed 
+                  users worldwide.
+                <li>The second panel shows the top 6 countries in the world with the most frequent users with their 
+                respective number of Users.
+              </div>
+              <p style=margin-top:3rem;margin-bottom:3rem><strong>Observations</strong>. We know we can see the users 
+                on Google Analytics Snapshot the most general information in real-time. However, 
+                if we want to get information about the number of Users using mobile devices to access our Website, 
+                we need to take another report. The name of the report is User-Tech overview. For more details, check 
+                the following image in its lower level.
+              </p>
+              <img alt="Google Analytics Tech Report"src=fig5.png style=width:100%>
+            </section>
+          </div>
+          <footer>
+            <section>
+              <h3>You can reach Leonardo at</h3>
+              <ul class=footerLGM>
+                <li>
+                <a href=https://www.linkedin.com/in/leonardogarciageoandev/ class=footerLGM>LinkedIn</a>
+                <li><a href=mailto:lgarciab@mail.ccsf.edu class=footerLGM>Email</a>
+                <li><a href=tel:+7868620022 class=footerLGM>Phone</a>
+                <li><a href=index.html class=footerLGM>Home</a>
+                </ul>
+              </section>
+            </footer>
