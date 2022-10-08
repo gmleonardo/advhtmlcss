@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Working with Grids</title>
+   <meta charset="utf-8">
+   <meta name="description" content="working with grids in CNIT 132A">
+   <style>
+      .page-layout {
+         display: flex;
+				 flex-wrap: wrap; 
+				 /*height: 400px;*/
+         
+      }
+
+			.company,.footer2017{
+				flex: 0 1 100%;
+				height: 75px;
+			}
+
+			.aside1,.aside2,.mainArticle,.thirdColumn{
+				flex:0 1 25%;
+				height: 225px;
+				
+			}
+
+	
+	  .company, .aside1, .aside2, .mainArticle, .thirdColumn, .footer2017 {
+	   text-align: center;
+		 font-weight: bold;
+		 padding-top: 5%;
+	  }
+
+		.company{
+			background-color: rgb(199, 50, 50);
+			color: black;
+		}
+
+		.aside1{
+			background-color: yellow;
+			color: black;
+		}
+
+
+	  .mainArticle {
+	     background-color: rgb(17, 0, 147);
+			 color: white;
+	  }
+	  .thirdColumn {
+	     background-color: rgb(221, 129, 255);
+			 color:rgb(17, 0, 147) ;
+	  }
+	  .aside2 {
+	     background-color: rgb(247, 196, 181);
+			 color: black;
+	  }
+	  .footer2017 {
+	     background-color: rgba(0, 255, 136, 0.883);
+			 color:black;
+	  }
+   </style>
+</head>
+<body>
+<div class="page-layout">
+  <div class="company">Name of Company</div>
+  <div class="aside1">This is the aside 1</div>
+  <div class="mainArticle">This is the main content of the page. In a 3-column layout, it should be in the middle between aside 1 and aside 2!</div>
+  <div class="thirdColumn">This column was created to have some content as a challenge to adapt the old 3-column layout to a 4-column layout.</div>
+  <div class="aside2">This is aside 2.</div>
+  <div class="footer2017">This is the footer Copyright 2017.</div>
+</div>
+</body>
+</html>
