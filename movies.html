@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Great movie titles</title>
+    <meta
+      name="description"
+      content="a list of great movie titles, name of director and trailer"
+    />
+    <meta charset="utf-8" />
+    <style>
+      body {
+        background-color: #deb887;
+        color: #a52a2a;
+      }
+      header {
+        width: 60%;
+        background-image: url(banner.png);
+        margin: 0 auto;
+        text-align: center;
+        border-shadow: 5px 5px 5px gray;
+        font-size: 1.5rem;
+        color: black;
+      }
+      div {
+        width: 60%;
+        margin: 0 auto;
+        border: 2px solid #d2691e;
+        padding: 0 10px;
+      }
+      footer {
+        width: 60%;
+        margin: 10px auto;
+        padding: 3px 0;
+        text-align: center;
+        background-color: #a52a2a;
+        color: white;
+        font-size: 0.9rem;
+      }
+      footer img {
+        float: left;
+        margin: 0 5px 5px 0;
+      }
+
+      .release{
+        margin-top: 15px;
+        display: block;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header itemscope="" itemtype="https://schema.org/Movie" role="banner">
+      <h1 itemprop="about" >Great Movies</h1>
+      <h2 itemscope="abstract">Great Directors</h2>
+    </header>
+
+    <div itemscope="" itemtype="https://schema.org/Movie" role="contentinfo">
+      <h3 itemprop="name" aria-label="General Information about  of Avatar movie's director">Avatar</h3>
+
+      <p itemprop="director" itemscope itemtype="https://schema.org/Person">
+        <span itemprop="name">Director: James Cameron</span>
+        <time itemprop="birthDate">(born August 16, 1954)</time>
+      </p>
+
+      <p>
+        <span itemprop="genre">Type: Science fiction</span>
+        <time class="release" itemprop="sdDatePublished">Release Date: December 18, 2009</time>
+      </p>
+    </div>
+
+    <div itemscope="" itemtype="https://schema.org/Movie">
+      <h3 itemprop="name">Star Wars: Episode VII</h3>
+
+      <p itemprop="director" itemscope itemtype="https://schema.org/Person">
+        <span itemprop="name">Director: J. J. Abrams </span>
+        <time itemprop="birthDate">(born June 27, 1966)</time>
+      </p>
+
+      <p>
+        <span itemprop="genre">Type: Science fiction</span>
+        <time class="release" itemprop="sdDatePublished">Release Date: December 18, 2015</time>
+      </p>
+    </div>
+
+    <div itemscope="" itemtype="https://schema.org/Movie">
+      <h3 itemprop="name">Titanic</h3>
+      <p itemprop="director" itemscope itemtype="https://schema.org/Person">
+        <span itemprop="name">Director: James Cameron</span>
+        <time itemprop="birthDate">(born August 16, 1954)</time>
+      </p>
+
+      <p>
+        <span itemprop="genre">Type: Drama</span>
+        <time class="release" itemprop="sdDatePublished">Release Date: December 19, 1997</time>
+      </p>
+    </div>
+    <div itemscope="" itemtype="https://schema.org/Movie">
+      <h3 itemprop="name">Schindler's List</h3>
+      <p itemprop="director" itemscope itemtype="https://schema.org/Person">
+        <spam itemprop="name">Director: Steven Spielberg</spam>
+
+        <time itemprop="birthDate">(born December 18, 1946)</time>
+      </p>
+
+      <p>
+        <span itemprop="genre">Type: Drama</span>
+        <time class="release" itemprop="sdDatePublished">Release Date: December 15, 1993</time>
+      </p>
+    </div>
+
+    <footer itemscope="" itemtype="https://schema.org/EducationalOrganization" role="contentinfo">
+      <img itemprop="logo" src="movielogo.png" alt="A video recorder has been chosen as the icon of this website" />
+      <p>List made by 
+        <span itemprop="member">CNIT 132A class</span> at 
+        <span itemprop="parentOrganization">CCSF</span>
+      </p>
+      <p itemscope="" itemtype="https://schema.org/Product">
+        Copyright &copy;
+        <time itemprop="productionDate">2017</time> 
+      </p>
+    </footer>
+  </body>
+</html>
