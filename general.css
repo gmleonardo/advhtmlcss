@@ -144,10 +144,24 @@ li a:hover {
   align-content: center;
   width: 90%;
 }
+
+.imageAnalytics img {
+  align-content: center;
+  width: 70%;
+}
 .imageCompress figcaption {
   font-size: 15px;
   margin-bottom: 30px;
   margin-top: 30px;
+}
+
+.linknormal{
+  color:#04850f;
+  padding: 0;
+  margin:0;
+  display: inline;
+  font-size: large;
+
 }
 @media (max-width: 84em) {
   * {
@@ -166,6 +180,8 @@ li a:hover {
     font-size: 1.6rem;
   }
 }
+
+
 
 @media (max-width: 59em) {
   html {
